@@ -1,0 +1,42 @@
+\documentclass{usgc-invoice}
+
+\begin{document}
+
+\header{102-AA7JHF2E}
+       {Sep 16, 2025} % Invoice created
+       {Oct 15, 2025} % Invoice due
+
+\begin{company}
+  European Graphics GmbH.
+  404 Nonexistentstrasse, Unit 2B,
+  70128, Stuttgart, Germany
+  P.O. No. 100-20358238
+  VAT ID 82382101
+\end{company}
+
+\order{TZR29K0}
+      {RXL02W4WKQZK6WN4NY5K}
+      {Sep 16, 2025}
+
+\procurementContract{GSA Schedule GS-35F-0119Y / BPA 20358238}
+
+\begin{orderTable}
+  \N & FX-400 & Berkeley Mono Startup           & 495.00 & 1 & 495.00 \\
+  \N & MX-004 & Berkeley Mono Standard Fonts    &   0.00 & 1 &   0.00 \\
+  \N & MX-017 & Berkeley Mono Ligatures         &   0.00 & 1 &   0.00 \\
+  \N & TS-024 & Berkeley Mono Standard Compiler &   0.00 & 1 &   0.00 \\
+  \N & MX-014 & Berkeley Mono Web Fonts         & 295.00 & 1 & 295.00 \\
+  \N & MX-020 & Berkeley Mono App License       & 395.00 & 1 & 395.00 \\
+  \totals
+    {1185.00}   % Subtotal
+    {-90.00}    % Discount
+    {1095.00}   % Net sales total
+    {0.00}      % Tax
+    {1095.00}   % Total
+    {-1095.00}  % Paid
+    {0.00}      % Balance
+\end{orderTable}
+
+\footer{VISA x 4242}
+
+\end{document}
